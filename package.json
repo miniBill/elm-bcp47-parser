@@ -1,7 +1,7 @@
 {
-  "name": "REPLACEME-AUTHOR-SLASH-REPO",
+  "name": "elm-bcp47-parser",
   "version": "0.0.1",
-  "description": "REPLACEME",
+  "description": "Parse BCP 47 language tags",
   "devDependencies": {
     "elm-review": "^2.7.5",
     "elm-test": "latest-0.19.1",
@@ -13,6 +13,6 @@
     "test": "elm-verify-examples --run-tests && elm-test",
     "postinstall": "elm-tooling install"
   },
-  "author": "REPLACEME",
+  "author": "miniBill",
   "license": "BSD-3-Clause"
 }

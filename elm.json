@@ -1,17 +1,19 @@
 {
     "type": "package",
-    "name": "replaceme/replaceme",
-    "summary": "REPLACEME",
+    "name": "miniBill/elm-bcp47-parser",
+    "summary": "Parse BCP 47 language tags",
     "license": "BSD-3-Clause",
     "version": "1.0.0",
     "exposed-modules": [
-        "REPLACEME"
+        "LanguageTag.Parser"
     ],
     "elm-version": "0.19.0 <= v < 0.20.0",
     "dependencies": {
-        "elm/core": "1.0.2 <= v < 2.0.0"
+        "dillonkearns/elm-bcp47-language-tag": "1.0.1 <= v < 2.0.0",
+        "elm/core": "1.0.2 <= v < 2.0.0",
+        "elm/parser": "1.1.0 <= v < 2.0.0"
     },
     "test-dependencies": {
-        "elm-explorations/test": "1.0.0 <= v < 2.0.0"
+        "elm-explorations/test": "2.1.0 <= v < 3.0.0"
     }
 }
