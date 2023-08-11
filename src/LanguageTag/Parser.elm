@@ -328,6 +328,7 @@ repeat from to cond =
     pop <|
         \head ->
             let
+                len : Int
                 len =
                     String.length head
             in
